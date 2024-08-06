@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Mayor o Menor</title>
+    <link rel="stylesheet" href="css/4-mayorymenor.css">
+</head>
+
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <nav>
+            <ul class="navul">
+                <h2 id="tituloType">TypeScript</h2>
+                <li class="navli"><a href="1-promedio.html" class="enlaceColor">Página 1</a></li>
+                <li class="navli"><a href="2-areatriangulo.html" class="enlaceColor">Página 2</a></li>
+                <li class="navli"><a href="3-paroimpar.html" class="enlaceColor">Página 3</a></li>
+                <li class="navli"><a href="4-mayorymenor.html" class="enlaceColor">Página 4</a></li>
+                <li class="navli"><a href="5-potencia.html" class="enlaceColor">Página 5</a></li>
+                <li class="navli"><a href="6-txtinverso.html" class="enlaceColor">Página 6</a></li>
+                <li class="navli"><a href="7-factorial.html" class="enlaceColor">Página 7</a></li>
+                <li class="navli"><a href="8-numperfecto.html" class="enlaceColor">Página 8</a></li>
+                <li class="navli"><a href="9-primo.html" class="enlaceColor">Página 9</a></li>
+                <li class="navli"><a href="10-vocales.html" class="enlaceColor">Página 10</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <input type="button" value="<< MENÚ PRINCIPAL" class="boton-regresar">
+        </a>
+        <header>
+            <h1>Número Mayor y Menor</h1>
+        </header>
+        <p>El usuario debe ingresar el valor para encontrar el mayor y menor de tres números ingresados.</p>
+        <br><br>
+        <section>
+            <article>
+                <form>
+                    <div class="inputbox">
+                        <input type="number" required id="txtNumero1" name="txtNumero1">
+                        <label for="txtNumero1">Primer Número</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" required id="txtNumero2" name="txtNumero2">
+                        <label for="txtNumero2">Segundo Número</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" required id="txtNumero3" name="txtNumero3">
+                        <label for="txtNumero3">Tercer Número</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" readonly id="resultado" name="resultado" placeholder="Resultado">
+                        <label for="resultado"></label>
+                    </div>
+                </form>
+                <button id="btnNumero" class="submitguardar">Obtener Orden</button>
+            </article>
+        </section>
+    </div>
+    <script src="js/4-mayorymenor.js"></script>
+</body>
+
+</html>

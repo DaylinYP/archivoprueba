@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potencia de un número</title>
+    <link rel="stylesheet" href="css/5-potencia.css">
+    <script src="js/5-potencia.js"></script>
+</head>
+
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+        <nav>
+            <ul class="navul">
+                <h2 id="tituloType">TypeScript</h2>
+                <li class="navli"><a href="1-promedio.html" class="enlaceColor">Página 1</a></li>
+                <li class="navli"><a href="2-areatriangulo.html" class="enlaceColor">Página 2</a></li>
+                <li class="navli"><a href="3-paroimpar.html" class="enlaceColor">Página 3</a></li>
+                <li class="navli"><a href="4-mayorymenor.html" class="enlaceColor">Página 4</a></li>
+                <li class="navli"><a href="5-potencia.html" class="enlaceColor">Página 5</a></li>
+                <li class="navli"><a href="6-txtinverso.html" class="enlaceColor">Página 6</a></li>
+                <li class="navli"><a href="7-factorial.html" class="enlaceColor">Página 7</a></li>
+                <li class="navli"><a href="8-numperfecto.html" class="enlaceColor">Página 8</a></li>
+                <li class="navli"><a href="9-primo.html" class="enlaceColor">Página 9</a></li>
+                <li class="navli"><a href="10-vocales.html" class="enlaceColor">Página 10</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <button class="boton-regresar">
+                << MENÚ PRINCIPAL</button>
+
+        </a>
+        <header>
+            <h1>Encontrar la potencia de un número</h1>
+        </header>
+        <p> Elevar un número a una potencia, los valores deben ser ingresados por el usuario. </p>
+
+        <br><br>
+        <span class="span">
+            <section>
+                <article>
+                    <form>
+                        <div class="inputbox">
+                            <input type="number" required id="txtBase" name="txtBase">
+                            <label for="txtBase">Ingrese un número ( base )</label>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="number" required id="txtExponente" name="txtExponente">
+                            <label for="txtExponente">Ingrese el exponente</label>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="text" readonly id="resultado" placeholder="Resultado">
+                            <label for="resultado"></label>
+                        </div>
+                    </form>
+                    <button id="btnNumero" class="submitguardar" onclick="potencia()">Obtener Resultado</button>
+
+                </article>
+            </section>
+        </span>
+    </div>
+
+</body>
+
+</html>
